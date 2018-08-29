@@ -14,7 +14,7 @@
 	
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://raw.githubusercontent.com/FakeShemp/flathub/com.hamrick.VueScan/screenshot.png</image>
+			<image type="source">https://github.com/flathub/com.hamrick.VueScan/raw/master/screenshot.png</image>
 		</screenshot>
 	</screenshots>
 	
