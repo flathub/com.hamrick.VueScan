@@ -9,10 +9,6 @@
 		<p>The base VueScan app is available for free but will leave a watermark on your scanned images unless you purchase a license from Hamrick Software.</p>
 		<p>NOTE: This wrapper is not verified by, affiliated with, or supported by Hamrick Software.</p>
 	</description>
-	<categories>
-		<category>Graphics</category>
-		<category>Scanning</category>
-	</categories>
 	<url type="homepage">https://www.hamrick.com/</url>
 	<url type="faq">https://www.hamrick.com/support/frequently-asked-questions/</url>
 	<url type="help">https://www.hamrick.com/support/how-to-guides/</url>
@@ -24,7 +20,7 @@
 	<developer_name>Hamrick Software</developer_name>
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://github.com/flathub/com.hamrick.VueScan/raw/master/screenshot.png</image>
+			<image type="source">https://raw.githubusercontent.com/flathub/com.hamrick.VueScan/master/screenshot.png</image>
 		</screenshot>
 	</screenshots>
 	<update_contact>sakcheen+flathub_AT_gmail.com</update_contact>
