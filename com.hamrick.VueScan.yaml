@@ -1,41 +1,24 @@
 app-id: com.hamrick.VueScan
 runtime: org.gnome.Platform
-runtime-version: '3.30'
+runtime-version: '3.32'
 sdk: org.gnome.Sdk
 command: vuescan
 tags:
   - proprietary
 finish-args:
   - --share=ipc
-  - --share=network
   - --socket=x11
   - --socket=pulseaudio
   - --filesystem=xdg-pictures
   - --filesystem=xdg-documents
-  - --filesystem=~/.vuescanrc # License file
+  # Networked scanners
+  - --share=network
+  # License file
+  - --persist=.
   - --persist=.vuescan
   - --device=all
 modules:
   - shared-modules/gtk2/gtk2.json
-  
-  - name: libusb
-    config-opts:
-      - --disable-static
-      - --enable-debug=no
-      - --disable-build-docs
-      - --with-pic
-    build-options:
-      cflags: -Wno-error
-      cxxflags: -Wno-error
-    sources:
-      - type: archive
-        url: https://sourceforge.net/projects/libusb/files/libusb-0.1%20%28LEGACY%29/0.1.12/libusb-0.1.12.tar.gz
-        sha256: 37f6f7d9de74196eb5fc0bbe0aea9b5c939de7f500acba3af6fd643f3b538b44
-    cleanup:
-      - /bin
-      - /include
-      - /lib/*.la
-      - /lib/pkgconfig
 
   - name: vuescan
     buildsystem: simple
@@ -52,15 +35,21 @@ modules:
       - type: extra-data
         filename: vuescan.tgz
         only-arches: ['i386']
-        url: https://www.hamrick.com/oldfiles/vuex3295.tgz
-        sha256: 962714521b13db3f8fa53b844cdadc1560dcc3dccda284a39311255b05db17c7
-        size: 8228347
+        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3296.tgz
+        sha256: 14bb52574627ba6c3252f79597fe0cd2161497c38ed9008f736b975a7e994457
+        size: 9152264
+        x-checker-data:
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuex3296.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: ['x86_64']
-        url: https://www.hamrick.com/oldfiles/vuex6495.tgz
-        sha256: 9bf556571205932f89cc348837fa432572a4a3cddf617f03860bb4160f701a3e
-        size: 8226468
+        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6496.tgz
+        sha256: d41e316d181f3c24d413a5f61e5705ac484bd43ea92db661219a6be18b1afae1
+        size: 9354415
+        x-checker-data:
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuex6496.tgz
       - type: script
         dest-filename: apply_extra
         commands:
@@ -78,10 +67,10 @@ modules:
       - type: file
         path: com.hamrick.VueScan.desktop
       - type: file
-        path: icon16x16.png
+        path: icons/icon16x16.png
       - type: file
-        path: icon32x32.png
+        path: icons/icon32x32.png
       - type: file
-        path: icon48x48.png
+        path: icons/icon48x48.png
       - type: file
-        path: icon128x128.png
+        path: icons/icon128x128.png
