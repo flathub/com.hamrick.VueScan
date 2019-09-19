@@ -38,6 +38,7 @@ modules:
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3296.tgz
         sha256: 5ea1c02433aa40d8e511f9231db5502103f815a3484ba24effe072ce638263e6
         size: 9165873
+
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex3296.tgz
