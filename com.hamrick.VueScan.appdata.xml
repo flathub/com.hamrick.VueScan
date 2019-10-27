@@ -24,7 +24,7 @@
 	<developer_name>Hamrick Software</developer_name>
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://www.hamrick.com/images/screenshot_linux.jpg</image>
+			<image type="source">https://raw.githubusercontent.com/flathub/com.hamrick.VueScan/master/screenshot.png</image>
 		</screenshot>
 	</screenshots>
 	<update_contact>sakcheen+flathub_AT_gmail.com</update_contact>
