@@ -1,6 +1,16 @@
 [Desktop Entry]
 Type=Application
+Version=1.1
 Name=VueScan
+GenericName=Scanner interface utility
+Comment=Use scanning hardware to digitize images and documents
 Exec=vuescan
 Icon=com.hamrick.VueScan
-Categories=Graphics;Scanning
+Categories=Graphics;Scanning;
+Keywords=scanner;image;flatbed;adf;
+Terminal=false
+StartupNotify=true
+StartupWMClass=Vuescan
+DBusActivatable=false
+NoDisplay=false
+Hidden=false
