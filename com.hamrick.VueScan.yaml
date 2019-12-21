@@ -1,7 +1,6 @@
----
 app-id: com.hamrick.VueScan
 runtime: org.gnome.Platform
-runtime-version: "3.34"
+runtime-version: '3.34'
 sdk: org.gnome.Sdk
 command: vuescan
 tags:
@@ -35,19 +34,19 @@ modules:
     sources:
       - type: extra-data
         filename: vuescan.tgz
-        only-arches: [ i386 ]
+        only-arches: [i386]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3297.tgz
-        sha256: c2859cee9eb4d1fa77d10ab34e07cba0f80fa7c68f7eb8a7d15372f0fd7842a6
-        size: 9651872
+        sha256: 2fccfa19dca14398a21a8fb60b33d847f2298882f93a30284696cc7566f1ba4f
+        size: 9652125
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex3297.tgz
       - type: extra-data
         filename: vuescan.tgz
-        only-arches: [ x86_64 ]
+        only-arches: [x86_64]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6497.tgz
-        sha256: 9ead649bfc36b056a848637953914ed5a9f68b9f48378fea4280b0fea4e99003
-        size: 9662175
+        sha256: cd3512f0847eb948f566c2907b6680fae2ada5fc2e50930198ae39777978e916
+        size: 9662464
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex6497.tgz
@@ -75,4 +74,3 @@ modules:
         path: icons/icon48x48.png
       - type: file
         path: icons/icon128x128.png
-...
