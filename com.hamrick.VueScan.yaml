@@ -1,6 +1,7 @@
+---
 app-id: com.hamrick.VueScan
 runtime: org.gnome.Platform
-runtime-version: '3.34'
+runtime-version: "3.34"
 sdk: org.gnome.Sdk
 command: vuescan
 tags:
@@ -34,7 +35,7 @@ modules:
     sources:
       - type: extra-data
         filename: vuescan.tgz
-        only-arches: [i386]
+        only-arches: [ i386 ]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3297.tgz
         sha256: c2859cee9eb4d1fa77d10ab34e07cba0f80fa7c68f7eb8a7d15372f0fd7842a6
         size: 9651872
@@ -43,7 +44,7 @@ modules:
           url: https://www.hamrick.com/files/vuex3297.tgz
       - type: extra-data
         filename: vuescan.tgz
-        only-arches: [x86_64]
+        only-arches: [ x86_64 ]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6497.tgz
         sha256: 9ead649bfc36b056a848637953914ed5a9f68b9f48378fea4280b0fea4e99003
         size: 9662175
@@ -53,10 +54,10 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - tar xf vuescan.tgz
+          - tar xof vuescan.tgz
           - rm vuescan.tgz
           - mv VueScan/* .
-          - rm vuescan.svg # Unfortunately the SVG is just a JPEG embedded in SVG container
+          - rm vuescan.svg  # This is just a JPEG embedded in an SVG container, prefer PNGs
           - rmdir VueScan
       - type: script
         dest-filename: vuescan
@@ -74,3 +75,4 @@ modules:
         path: icons/icon48x48.png
       - type: file
         path: icons/icon128x128.png
+...
