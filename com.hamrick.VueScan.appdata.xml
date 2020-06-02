@@ -14,6 +14,7 @@
 	<url type="help">https://www.hamrick.com/support/how-to-guides/</url>
 	<launchable type="desktop-id">com.hamrick.VueScan.desktop</launchable>
 	<releases>
+		<release version="9.7.28" date="2019-05-31"/>
 		<release version="9.7.10" date="2019-11-29"/>
 		<release version="9.7.05" date="2019-10-17"/>
 		<release version="9.7.01" date="2019-09-27"/>
