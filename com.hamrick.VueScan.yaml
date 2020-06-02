@@ -50,6 +50,24 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex6497.tgz
+      - type: extra-data
+        filename: vuescan.tgz
+        only-arches: [arm]
+        url: https://www.hamrick.com/files/vuea3297.tgz
+        sha256: 65a4cb45bf64b837aeaf073ad8e49d0ba1c03b4ba2f66ffb1da008e6bdd82669
+        size: 9367879
+        x-checker-data:
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuea3297.tgz
+      - type: extra-data
+        filename: vuescan.tgz
+        only-arches: [aarch64]
+        url: https://www.hamrick.com/files/vuea6497.tgz
+        sha256: 2cba2104a0ab7ad5114e63f00d6bd24446ba262b68cd1cdee9d98e5fec58613f
+        size: 9988685
+        x-checker-data:
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuea6497.tgz
       - type: script
         dest-filename: apply_extra
         commands:
