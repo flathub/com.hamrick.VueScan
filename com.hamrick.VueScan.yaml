@@ -39,10 +39,8 @@ modules:
         sha256: b836d887d474d04bc23da00d7fbd7151630b261bca32ecb9808fb7447f9dc249
         size: 9867529
         x-checker-data:
-          type: html
-          url: https://www.hamrick.com/alternate-versions.html
-          version-pattern: "VueScan ([\\d\\.-]*) was released on"
-          url-pattern: https://www.hamrick.com/files/vuex3297.tgz
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuex3297.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [x86_64]
@@ -50,10 +48,8 @@ modules:
         sha256: cf58ba185729e8951327e044e99fe817ee23785c8a40908f8d425f300af0f87f
         size: 9909193
         x-checker-data:
-          type: html
-          url: https://www.hamrick.com/alternate-versions.html
-          version-pattern: "VueScan ([\\d\\.-]*) was released on"
-          url-pattern: https://www.hamrick.com/files/vuex6497.tgz
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuex6497.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [arm]
@@ -61,10 +57,8 @@ modules:
         sha256: 75fa353aa15155b491a523fda407a3c0a1d9c907777a0d0a774ccc6fc6a194b6
         size: 9392765
         x-checker-data:
-          type: html
-          url: https://www.hamrick.com/alternate-versions.html
-          version-pattern: "VueScan ([\\d\\.-]*) was released on"
-          url-pattern: https://www.hamrick.com/files/vuea3297.tgz
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuea3297.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [aarch64]
@@ -72,10 +66,8 @@ modules:
         sha256: c86d79fc0fba129ea9d4d427ee0c5143db5fd25d18f51efc28dd43d10a2efb20
         size: 10010345
         x-checker-data:
-          type: html
-          url: https://www.hamrick.com/alternate-versions.html
-          version-pattern: "VueScan ([\\d\\.-]*) was released on"
-          url-pattern: https://www.hamrick.com/files/vuea6497.tgz
+          type: rotating-url
+          url: https://www.hamrick.com/files/vuea6497.tgz
       - type: script
         dest-filename: apply_extra
         commands:
