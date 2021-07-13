@@ -36,8 +36,8 @@ modules:
         filename: vuescan.tgz
         only-arches: [i386]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3297.tgz
-        sha256: 3b2877a77bdd7122275506fc16bee93aa544b256d79d3a893deada4b6ca4c6bc
-        size: 9994018
+        sha256: 55648e96e72e4837ab9f454ab8b85bdeeca96649a55741a0e8d1f07d7153f42c
+        size: 9994647
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex3297.tgz
@@ -45,8 +45,8 @@ modules:
         filename: vuescan.tgz
         only-arches: [x86_64]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6497.tgz
-        sha256: 888ca40bc539e0c303ece4067f29a3038da2d66cebedc4bf9ee0baddf564c681
-        size: 10036281
+        sha256: 1be7a9a925cde630823a62b4db9187820017a6f2adf35ade349a4333e535f0b1
+        size: 10037793
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex6497.tgz
@@ -54,8 +54,8 @@ modules:
         filename: vuescan.tgz
         only-arches: [arm]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuea3297.tgz
-        sha256: 6849238d2b37a13f76a90297bbca67cd8590571e28ce870053401d1a65518d88
-        size: 9517098
+        sha256: fdd65d877e4bb259c5eb667fa6d8ea01c2e64441ec5fe8177f5f90393db1859a
+        size: 9517814
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuea3297.tgz
@@ -63,8 +63,8 @@ modules:
         filename: vuescan.tgz
         only-arches: [aarch64]
         url: https://d2bwyyzfw77fhf.cloudfront.net/vuea6497.tgz
-        sha256: a30e35fc979aef43e2ff36a704d6734dcf058f55f2a178e77e8e3ceeffdd52ca
-        size: 10133384
+        sha256: d693aa5a7c015095d98c1b326878d2197df34ccb6e7b4b1d1c7aa27366bfdced
+        size: 10134863
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuea6497.tgz
