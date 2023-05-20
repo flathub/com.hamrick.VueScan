@@ -35,39 +35,39 @@ modules:
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [i386]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3297.tgz
-        sha256: 60496be6285ad45df3281d0273816966090bfbcdc3880886a6ea8f0bf90e2283
-        size: 13565041
+        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3298.tgz
+        sha256: db3b307324ac9158fad93dda27ff9eb3e6df7ca586942b6bac5597c1b503c6df
+        size: 14623854
         x-checker-data:
           type: rotating-url
-          url: https://www.hamrick.com/files/vuex3297.tgz
+          url: https://www.hamrick.com/files/vuex3298.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [x86_64]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6497.tgz
-        sha256: 271d23c3ec7dc647240cf4b40d70846363aec2c9d6675647ca4f0bf2aac6dd09
-        size: 13874154
+        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6498.tgz
+        sha256: a73374f8f949038d6b0a74c15e18a6505b42882e5e1747709670e1f0c6918bf5
+        size: 14974615
         x-checker-data:
           type: rotating-url
-          url: https://www.hamrick.com/files/vuex6497.tgz
+          url: https://www.hamrick.com/files/vuex6498.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [arm]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuea3297.tgz
-        sha256: ce26f1fa4860504f6dadd978b1728cd0df0086661ebffe85c8b0b59096c862a1
-        size: 11980092
+        url: https://d2bwyyzfw77fhf.cloudfront.net/vuea3298.tgz
+        sha256: 029f0c1085f16f78f97c6460495dfbc31ad864a98af545fcc66c84cadaca1bdd
+        size: 12927482
         x-checker-data:
           type: rotating-url
-          url: https://www.hamrick.com/files/vuea3297.tgz
+          url: https://www.hamrick.com/files/vuea3298.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [aarch64]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuea6497.tgz
-        sha256: 130dcc4d925cd749b8e09b1ffc3f805b498ecff048532940bca40ea9f95f7b34
-        size: 13335593
+        url: https://d2bwyyzfw77fhf.cloudfront.net/vuea6498.tgz
+        sha256: de7f2d4bb2146c6b9557362ca1c17b4ff443d5d709214cacf6f21e5b6a811a70
+        size: 14317778
         x-checker-data:
           type: rotating-url
-          url: https://www.hamrick.com/files/vuea6497.tgz
+          url: https://www.hamrick.com/files/vuea6498.tgz
       - type: script
         dest-filename: apply_extra
         commands:
