@@ -35,36 +35,36 @@ modules:
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [i386]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex3298.tgz
-        sha256: 355c115155ffa0318fab5c25562982f9b18b23ad21f91860b8e2fd411818b211
-        size: 17070979
+        url: https://files.hamrick.com/vuex3298.tgz
+        sha256: 9e3702f45d3dedb829fbd7ca707dc1f69c92d4e2ae926fcb39e6a11ddcd84ba6
+        size: 17096171
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex3298.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [x86_64]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuex6498.tgz
-        sha256: df9a21a2cf6b77ac94c76bcaf0a0df15cbbb80f1b401b07e580309129a7c4f91
-        size: 17462318
+        url: https://files.hamrick.com/vuex6498.tgz
+        sha256: af217a169a1849db974c352ff87aa90a8368e34ac6c515b408d20e137930abea
+        size: 17485635
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex6498.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [arm]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuea3298.tgz
-        sha256: 727d6c97bf7e759c0e435563ab09c740cccd4ec884909ce440c8041443584532
-        size: 15206375
+        url: https://files.hamrick.com/vuea3298.tgz
+        sha256: 673e2228c6eb0f84cd56533619c3fd1ed334db3a86fe5dc8a1483f20bbcbbaba
+        size: 15229658
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuea3298.tgz
       - type: extra-data
         filename: vuescan.tgz
         only-arches: [aarch64]
-        url: https://d2bwyyzfw77fhf.cloudfront.net/vuea6498.tgz
-        sha256: a3d552ddc175846ddf231a3736bc2c57d5fd701e0889619cc9121e58dd35eddf
-        size: 16678963
+        url: https://files.hamrick.com/vuea6498.tgz
+        sha256: 58116b2c99134e6d7621d595018788f0b22f2d94ffdb26e50987de8c30e04da3
+        size: 16705562
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuea6498.tgz
