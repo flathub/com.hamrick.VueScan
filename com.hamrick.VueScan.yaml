@@ -45,8 +45,8 @@ modules:
         filename: vuescan.tgz
         only-arches: [x86_64]
         url: https://files.hamrick.com/vuex6498.tgz
-        sha256: 49dddadf5f401e3e8b2cd45a8f77b1e6a626c24882762961ecae4c71368adea0
-        size: 36442469
+        sha256: 82965dab20af74a9cd66a808b7c2bbaf4ba1979384bc5cf945dbb3fde488e27a
+        size: 36443077
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuex6498.tgz
@@ -63,8 +63,8 @@ modules:
         filename: vuescan.tgz
         only-arches: [aarch64]
         url: https://files.hamrick.com/vuea6498.tgz
-        sha256: 5bb887c13cdff9d2467fe11c108d275c134aa5aaa1413ac4b2389832e9432ca8
-        size: 34887223
+        sha256: 83ea7c7a605491e3b817391ac77c1cc72ee271864c0c37b4bf29f069ee4cd34c
+        size: 34888129
         x-checker-data:
           type: rotating-url
           url: https://www.hamrick.com/files/vuea6498.tgz
