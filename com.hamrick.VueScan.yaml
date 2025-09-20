@@ -2,6 +2,14 @@ app-id: com.hamrick.VueScan
 runtime: org.gnome.Platform
 runtime-version: '47'
 sdk: org.gnome.Sdk
+add-extensions:
+  com.hamrick.VueScan.Plugin:
+    versions: 1-25.08
+    directory: plugins
+    add-ld-path: extra/lib
+    subdirectories: true
+    autodelete: true
+    no-autodownload: true
 command: vuescan
 tags:
   - proprietary
@@ -31,6 +39,7 @@ modules:
       - install -Dm644 icon32x32.png "${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/${FLATPAK_ID}.png"
       - install -Dm644 icon48x48.png "${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png"
       - install -Dm644 icon128x128.png "${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png"
+      - install -d "${FLATPAK_DEST}/plugins"
     sources:
       - type: extra-data
         filename: vuescan.tgz
