@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
 	<id>com.hamrick.VueScan</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<name>VueScan</name>
 	<summary>Scanning software for 6000+ scanners</summary>
 	<description>
+		<p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Hamrick Software.**</p>
 		<p>VueScan is an application for scanning documents, photos, film, and slides on Windows, macOS, and Linux. VueScan supports over 6000 scanners from 42 manufacturers - even when there isn't a driver available from the manufacturer.</p>
 		<p>The base VueScan app is available for free but will leave a watermark on your scanned images unless you purchase a license from Hamrick Software.</p>
-		<p>NOTE: This wrapper is not verified by, affiliated with, or supported by Hamrick Software.</p>
 	</description>
 	<url type="homepage">https://www.hamrick.com/</url>
 	<url type="faq">https://www.hamrick.com/support/frequently-asked-questions/</url>
